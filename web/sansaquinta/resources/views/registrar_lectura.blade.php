@@ -61,3 +61,8 @@
         </div>
     </div>
 @endsection
+
+@section('javascript')
+    <script src="{{asset('js/registrar_lectura.js')}}"></script>
+    
+@endsection

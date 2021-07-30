@@ -20,3 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get("medidas/get", [MedidasController::class, "getMedidas"]);
+
+Route::get("registrar_lecturas/get", [MedidasController::class, "getMedidas"]);
+
+Route::get("medidas_existentes/post", [MedidasController::class, "crearMedida"]);
